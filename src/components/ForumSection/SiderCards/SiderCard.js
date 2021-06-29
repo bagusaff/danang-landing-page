@@ -13,7 +13,7 @@ const SiderCard = () => {
 
   useEffect(() => {
     // setLoading(true)
-    fetch(`http://dwiwahyu.budayakotajogja.com/api/proposal`)
+    fetch(`/api/proposal`)
       .then((response) => response.json())
       .then((json) => {
         setData(json);

@@ -8,7 +8,7 @@ const ForumCardList = () => {
 
   useEffect(() => {
     // setLoading(true)
-    fetch(`http://dwiwahyu.budayakotajogja.com/api/forum`)
+    fetch(`/api/forum`)
       .then((response) => response.json())
       .then((json) => {
         setData(json);

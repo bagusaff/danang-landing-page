@@ -84,3 +84,5 @@ TBA
 # 29 - 06 - 2021
 
 - Mengganti seluruh unsur Pakdwek menjadi Pak Danang
+
+- Menghapus base URL API

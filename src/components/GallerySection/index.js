@@ -20,7 +20,7 @@ const GallerySection = () => {
 
   useEffect(() => {
     // setLoading(true)
-    fetch(`http://dwiwahyu.budayakotajogja.com/api/gallery`)
+    fetch(`/api/gallery`)
       .then((response) => response.json())
       .then((json) => {
         setData(json);

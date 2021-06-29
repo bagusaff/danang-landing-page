@@ -15,7 +15,7 @@ const ActivitySection = () => {
 
   useEffect(() => {
     // setLoading(true)
-    fetch(`http://dwiwahyu.budayakotajogja.com/api/article`)
+    fetch(`/api/article`)
       .then((response) => response.json())
       .then((json) => {
         setData(json);
